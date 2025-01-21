@@ -64,7 +64,6 @@ dependencies {
     implementation(libs.material.icons.extended)
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.lifecycle.runtime.compose)
-    // Gson
     implementation(libs.gson)
 
 }
