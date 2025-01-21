@@ -30,11 +30,11 @@ enum class BingoGameMode(val label: String, val pattern: Array<IntArray>) {
         intArrayOf(1, 1, 1, 1, 1)
     )),
     M("Letra M", arrayOf(
-        intArrayOf(1, 1, 1, 1, 1),
-        intArrayOf(0, 1, 0, 0, 0),
-        intArrayOf(0, 0, 1, 0, 0),
-        intArrayOf(0, 1, 0, 0, 0),
-        intArrayOf(1, 1, 1, 1, 1)
+        intArrayOf(1, 0, 0, 0, 1),
+        intArrayOf(1, 1, 0, 1, 1),
+        intArrayOf(1, 0, 1, 0, 1),
+        intArrayOf(1, 0, 0, 0, 1),
+        intArrayOf(1, 0, 0, 0, 1)
     )),
     DIAMOND("Diamante", arrayOf(
         intArrayOf(0, 0, 1, 0, 0),

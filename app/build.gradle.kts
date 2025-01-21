@@ -13,8 +13,8 @@ android {
         applicationId = "com.alekey.bingo"
         minSdk = 31
         targetSdk = 34
-        versionCode = 25
-        versionName = "24.12.30"
+        versionCode = 26
+        versionName = "25.01.21"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -59,11 +59,11 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     // Navegación y Material
-    implementation("androidx.navigation:navigation-compose:2.7.7")
-    implementation("androidx.compose.material3:material3:1.2.0")
-    implementation("androidx.compose.material:material-icons-extended:1.6.1")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
-    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
+    implementation("androidx.navigation:navigation-compose:2.8.5")
+    implementation("androidx.compose.material3:material3:1.3.1")
+    implementation("androidx.compose.material:material-icons-extended:1.7.6")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
     // Gson
     implementation("com.google.code.gson:gson:2.10.1")
 
