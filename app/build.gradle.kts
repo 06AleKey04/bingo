@@ -59,12 +59,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     // Navegación y Material
-    implementation("androidx.navigation:navigation-compose:2.8.5")
-    implementation("androidx.compose.material3:material3:1.3.1")
-    implementation("androidx.compose.material:material-icons-extended:1.7.6")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
-    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
+    implementation(libs.navigation.compose)
+    implementation(libs.material3)
+    implementation(libs.material.icons.extended)
+    implementation(libs.lifecycle.viewmodel.compose)
+    implementation(libs.lifecycle.runtime.compose)
     // Gson
-    implementation("com.google.code.gson:gson:2.10.1")
+    implementation(libs.gson)
 
 }
